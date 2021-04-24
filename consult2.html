@@ -268,6 +268,11 @@ function(){
 }
 );
 </script>
+<script>
+	function getQuote() {
+	  alert("Service unavailable. Kindly drop a mail to rajesh.boddu@ratsan.com for Quote / Enquiries.");
+	}
+</script>
 <link rel="stylesheet" type="text/css" href="/style.css">
 </head>
 
@@ -306,7 +311,7 @@ info@ratsan.com
 <div style="background: white;">
   <center><font id="enq" size="8" color="#202529"><b>Enquiry Form</b></font><br><br><br></center>
  <center>
-<form method="post">
+<form method="get">
 <font size="5">
   <input type="text" name="name" placeholder="Name" class="form-textbox" required> <br><br>
   <input type="text" name="email" placeholder="Email" class="form-textbox" required><br><br>
@@ -314,7 +319,7 @@ info@ratsan.com
   <textarea rows="8" placeholder="Tell us about your requirements" cols="45" name="msg">
 </textarea><br>
 <br>
-  <input type="submit" onclick="displayPopup()" name="submit" class="myButton" value="Submit">
+  <input type="submit" onclick="getQuote()" name="submit" class="myButton" value="Submit">
 </center>
  </font>
 </form>
