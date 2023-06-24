@@ -1,2 +1,2 @@
 # rajeshboddu.github.io
-Ratsan Technology
+RatSan Consultancy
